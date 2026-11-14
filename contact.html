@@ -19,7 +19,6 @@ quote_by: Cj Hall
     <form class="form" action="{{ site.form_endpoint }}" method="POST">
       <input type="hidden" name="_next" value="{{ '/thanks' | absolute_url }}">
       <input type="hidden" name="_subject" value="Contact Enquiry Elle Driving School Sleaford">
-      <input type="hidden" name="_cc" value="{{ site.form_cc }}">
       <p class="form__trap" aria-hidden="true"><label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
       <p><label for="name">Name</label><input id="name" type="text" name="name" autocomplete="name" required></p>
       <p><label for="email">Email address</label><input id="email" type="email" name="email" autocomplete="email" required></p>

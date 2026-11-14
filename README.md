@@ -3,7 +3,7 @@
 https://www.elledrivingschoolsleaford.co.uk
 
 This repository is the whole site. GitHub Pages builds it with Jekyll on every
-push to `master`, so there is no separate source repository and no build step
+push to `main`, so there is no separate source repository and no build step
 to run. Editing a file on github.com and committing is enough.
 
 ## Common edits
