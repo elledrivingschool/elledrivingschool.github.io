@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: /about
+title: "About Martine | Elle Driving School Sleaford"
+description: Martine has been a DVSA Approved Driving Instructor since 1990 and has run Elle Driving School Sleaford since 2010. Lessons are in a manual MINI Cooper.
+heading: About Martine and Elle Driving School Sleaford
+intro: A driving instructor since 1990, teaching in Sleaford and the surrounding villages.
+quote: "Legendary Driving instructor, super easy to get along with, great humour"
+quote_by: Lewis Howe
+---
+<section class="band">
+  <div class="container container--narrow">
+    <h2>Your instructor</h2>
+    <p class="lead">I'm {{ site.instructor }}. I qualified as a driving instructor in {{ site.qualified_year }} and started Elle Driving School Sleaford in {{ site.founded_year }}.</p>
+    <p>I am a DVSA Approved Driving Instructor, which means I am registered with the Driver and Vehicle Standards Agency and checked by them to make sure my teaching stays up to standard. I work on my own, so you have the same instructor and the same car for every lesson.</p>
+    <p>I am based in {{ site.base_detail }}, and teach in {{ site.main_town }} and the <a href="/area">villages around it</a>.</p>
+
+    <h2>How I teach</h2>
+    <p>Lessons go at your pace. We make sure the basics are solid before moving on, because that is what makes everything after it easier, and it is why so many of my pupils go to their test feeling ready.</p>
+    <p>A lot of the people I teach are <a href="/nervous-drivers">nervous to begin with</a>, or have had a bad experience with another instructor. I would rather you asked the same question five times than sat there worrying about it. There is usually a fair bit of laughing in the car as well.</p>
+
+    <h2>The car</h2>
+    <p>You will learn in a manual {{ site.car | split: ',' | first }} fitted with dual controls, so I can step in if needed while you are finding your feet. It is a small car with good all-round visibility, which makes it easy to judge where the corners are when you are parking and manoeuvring.</p>
+    <p>If you pass your test in a manual car, your licence covers automatic cars too.</p>
+
+    <h2>Lessons</h2>
+    <ul class="ticks">
+      {%- for service in site.services %}
+      <li>{{ service }}</li>
+      {%- endfor %}
+    </ul>
+    <p>Lessons are {{ site.lesson_length }} long and cost £{{ site.lesson_price }}. I work {{ site.hours | downcase | replace: 'monday', 'Monday' | replace: 'friday', 'Friday' }}. See <a href="/prices">prices</a>, or <a href="/contact">get in touch</a> to book.</p>
+    <p>More about <a href="/female-driving-instructor">learning with a female driving instructor in {{ site.main_town }}</a>, <a href="/refresher-lessons">refresher lessons</a> and <a href="/driving-test-grantham">taking your test at {{ site.test_centre }}</a>.</p>
+  </div>
+</section>
+
+<section class="band band--blush">
+  <div class="container">
+    <h2>What my pupils say</h2>
+    <ul class="reviews reviews--featured">
+      {%- for review in site.data.reviews limit: 3 offset: 3 %}
+      {% include review.html review=review %}
+      {%- endfor %}
+    </ul>
+    <p class="center"><a class="button" href="/recommendations">Read all {{ site.data.reviews | size }} recommendations</a></p>
+  </div>
+</section>

@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="/"><img src="/assets/images/logo.svg" alt="{{ site.title }}" width="734" height="157"></a>
+    <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="/about"{% if page.url == '/about' %} aria-current="page"{% endif %}>About</a></li>
+        <li><a href="/prices"{% if page.url == '/prices' %} aria-current="page"{% endif %}>Prices</a></li>
+        <li><a href="/area"{% if page.url == '/area' %} aria-current="page"{% endif %}>Areas</a></li>
+        <li><a href="/recommendations"{% if page.url == '/recommendations' %} aria-current="page"{% endif %}>Reviews</a></li>
+        <li><a href="/contact"{% if page.url == '/contact' %} aria-current="page"{% endif %}>Contact</a></li>
+        <li><a class="nav__call" href="tel:{{ site.phone_link }}">Call {{ site.phone_display }}</a></li>
+      </ul>
+    </nav>
+    <details class="menu">
+      <summary>Menu</summary>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/prices">Prices</a></li>
+        <li><a href="/area">Areas</a></li>
+        <li><a href="/recommendations">Reviews</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="tel:{{ site.phone_link }}">Call: {{ site.phone_display }}</a></li>
+      </ul>
+    </details>
+  </div>
+</header>

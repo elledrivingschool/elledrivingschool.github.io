@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  {%- assign canonical = page.url | absolute_url %}
+  <link rel="canonical" href="{{ canonical }}">
+  <meta name="google-site-verification" content="ix-6x1Vkop-Fl41WTuz0Jf3NgDh61ZT-af1M-yAd9zc">
+  {%- if site.preview %}
+  <meta name="robots" content="noindex, nofollow">
+  {%- elsif page.noindex %}
+  <meta name="robots" content="noindex, follow">
+  {%- endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ '/assets/images/share.png' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.title }}: driving instructor in {{ site.main_town }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#13233b">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preload" href="/assets/fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="/assets/css/site.css" rel="stylesheet">
+  {% include schema.html %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include sprite.html %}
+  {% include header.html %}
+
+  <main id="main">
+    <section class="hero on-navy">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>{{ page.heading }}</h1>
+          {%- if page.intro %}
+          <p class="hero__intro">{{ page.intro }}</p>
+          {%- endif %}
+          {%- unless page.hide_cta %}
+          <p class="hero__actions">
+            <a class="button" href="tel:{{ site.phone_link }}">Call {{ site.phone_display }}</a>
+            {%- unless page.url == '/contact' %}
+            <a class="button button--ghost" href="/contact">Send a message</a>
+            {%- endunless %}
+          </p>
+          {%- endunless %}
+        </div>
+        {%- if page.quote %}
+        <figure class="platecard">
+          <svg viewBox="29 17 49 66" aria-hidden="true"><path d="M31 19h16v47h29v15H31z" fill="#fd2e55"/></svg>
+          <blockquote><p>{{ page.quote }}</p></blockquote>
+          <figcaption>{{ page.quote_by }}{% unless page.url == '/recommendations' %}, <a href="/recommendations">pupil review</a>{% endunless %}</figcaption>
+        </figure>
+        {%- else %}
+        <svg class="plate" viewBox="0 0 100 100" aria-hidden="true"><use href="#svg-lplate"></use></svg>
+        {%- endif %}
+      </div>
+    </section>
+    {%- if page.url == '/' %}
+    <div class="container">
+      <ul class="facts">
+        <li><b>Since {{ site.qualified_year }}</b>Driving instructor</li>
+        <li><b>£{{ site.lesson_price }}</b>{{ site.lesson_length | replace: ' hours', '-hour' }} lesson</li>
+        <li><b>MINI Cooper</b>Manual, with dual controls</li>
+        <li><b>9am to 4pm</b>Monday to Friday</li>
+      </ul>
+    </div>
+    {%- endif %}
+
+    {{ content }}
+
+    <nav class="more" aria-label="More about lessons">
+      <div class="container">
+        <h2>More about learning with {{ site.instructor }}</h2>
+        <ul>
+          {%- unless page.url == '/nervous-drivers' %}<li><a href="/nervous-drivers">Lessons for nervous drivers</a></li>{% endunless %}
+          {%- unless page.url == '/female-driving-instructor' %}<li><a href="/female-driving-instructor">Female driving instructor</a></li>{% endunless %}
+          {%- unless page.url == '/refresher-lessons' %}<li><a href="/refresher-lessons">Refresher lessons</a></li>{% endunless %}
+          {%- unless page.url == '/mock-driving-test' %}<li><a href="/mock-driving-test">Mock driving tests</a></li>{% endunless %}
+          {%- unless page.url == '/driving-test-grantham' %}<li><a href="/driving-test-grantham">Your driving test at {{ site.test_centre }}</a></li>{% endunless %}
+          {%- unless page.url == '/prices' %}<li><a href="/prices">Lesson prices</a></li>{% endunless %}
+          {%- unless page.url == '/recommendations' %}<li><a href="/recommendations">{{ site.data.reviews | size }} pupil reviews</a></li>{% endunless %}
+        </ul>
+      </div>
+    </nav>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

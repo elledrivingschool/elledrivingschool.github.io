@@ -1,0 +1,66 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.url }}/#website",
+  "url": "{{ site.url }}/",
+  "name": {{ site.title | jsonify }},
+  "alternateName": "Elle Driving School"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DrivingSchool",
+  "@id": "{{ site.url }}/#business",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.tagline | jsonify }},
+  "url": "{{ site.url }}/",
+  "telephone": {{ site.phone_link | jsonify }},
+  "email": {{ site.email | jsonify }},
+  "image": "{{ site.url }}/assets/images/share.png",
+  "logo": "{{ site.url }}/android-icon-192x192.png",
+  "foundingDate": "{{ site.founded_year }}",
+  "priceRange": "£{{ site.lesson_price }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": {{ site.main_town | jsonify }},
+    "addressRegion": {{ site.county | jsonify }},
+    "addressCountry": "GB"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "16:00"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": {{ site.instructor | jsonify }},
+    "jobTitle": "DVSA Approved Driving Instructor"
+  },
+  "areaServed": [
+    {%- for area in site.areas %}
+    { "@type": "Place", "name": {{ area | append: ', ' | append: site.county | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ],
+  "sameAs": [{{ site.facebook | jsonify }}]
+}
+</script>
+{%- if page.faqs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for faq in page.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>
+{%- endif %}

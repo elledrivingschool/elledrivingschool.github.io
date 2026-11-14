@@ -1,4 +1,4 @@
-Sitemap: http://www.elledrivingschoolsleaford.co.uk
-
 User-agent: *
-Disallow: 
+Disallow:
+
+Sitemap: https://www.elledrivingschoolsleaford.co.uk/sitemap.xml

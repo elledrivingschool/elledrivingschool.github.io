@@ -1,0 +1,10 @@
+{%- comment -%} Shows the newest reviews carrying a tag. Usage: include tagged-reviews.html tag="nervous" limit=6 {%- endcomment -%}
+<ul class="reviews">
+  {%- assign shown = 0 %}
+  {%- for review in site.data.reviews %}
+    {%- if shown < include.limit and review.tags contains include.tag %}
+      {% include review.html review=review %}
+      {%- assign shown = shown | plus: 1 %}
+    {%- endif %}
+  {%- endfor %}
+</ul>

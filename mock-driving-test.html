@@ -1,0 +1,71 @@
+---
+layout: default
+permalink: /mock-driving-test
+title: "Mock Driving Test in Grantham | Elle Driving School Sleaford"
+description: Mock driving tests on the roads around Grantham test centre, for learners from Sleaford and nearby villages. The full DVSA format, £90 for 2 hours.
+heading: Mock driving tests in Grantham
+intro: A full practice run of the driving test on the roads around the Grantham test centre, for learners from Sleaford and the nearby villages.
+quote: "Went to test feeling prepared and passed first time."
+quote_by: Charlotte Branton
+faqs:
+  - q: Do I have to be one of your pupils?
+    a: No. Anyone can book a mock test, whether you are learning with another instructor or practising with family. It is a good way to get an honest second opinion before you spend money on a test.
+  - q: Where does the mock test take place?
+    a: In Grantham, on the roads around the test centre, because that is where the real test is taken. The lesson starts in Sleaford or one of the villages I cover and we drive over.
+  - q: How long does a mock test take?
+    a: It is booked as a standard 2-hour lesson. That covers the drive to Grantham and back, the test itself, which takes about as long as the real one, and going through the result.
+  - q: How much does a mock test cost?
+    a: £90, the same as any 2-hour lesson.
+  - q: Which car will I drive?
+    a: My manual MINI Cooper, which has dual controls.
+  - q: What do I need to bring?
+    a: Your provisional driving licence, and your glasses or contact lenses if you need them to read a number plate.
+  - q: What if I fail the mock test?
+    a: Then it has done its job. Far better to find out here than at the test centre. We go through every fault and you will know exactly what to practise.
+  - q: Will you tell me honestly if I am not ready?
+    a: Yes. That is the point of it.
+---
+<section class="band">
+  <div class="container container--narrow">
+    <p class="lead">A mock test is the closest thing to your driving test without it counting. We drive to {{ site.test_centre }}, where the real test is taken, and I play the examiner: I say no more than an examiner would, and mark you the same way.</p>
+    <p>I follow the format the DVSA recommends in its <a href="https://readytopass.campaign.gov.uk/mock-driving-tests/" rel="noopener">Ready to Pass? campaign</a>, so every part of the real test is covered. Afterwards we go through the result together, fault by fault.</p>
+
+    <h2>What the mock test covers</h2>
+    <ol class="steps">
+      <li><strong>Licence and eyesight check.</strong> You read a number plate from 20 metres, as you will on the day.</li>
+      <li><strong>"Show me, tell me" questions.</strong> The vehicle safety questions an examiner asks.</li>
+      <li><strong>General driving.</strong> The kinds of road the test uses around {{ site.test_centre }}: country roads, town roads, dual carriageways, multi-lane roundabouts and one-way systems.</li>
+      <li><strong>Reversing.</strong> One of the manoeuvres from the real test.</li>
+      <li><strong>Independent driving.</strong> Around 20 minutes following a sat nav or road signs.</li>
+      <li><strong>An emergency stop.</strong></li>
+      <li><strong>Your result and feedback.</strong> Marked as driving faults, serious faults and dangerous faults, the way the real test is.</li>
+    </ol>
+
+    <h2>Am I ready for my driving test?</h2>
+    <p>The DVSA's Ready to Pass? campaign gives five signs that a learner is ready. In my words:</p>
+    <ul class="ticks">
+      <li>You drive without needing prompts from your instructor.</li>
+      <li>You are not making serious or dangerous mistakes.</li>
+      <li>You can pass mock tests.</li>
+      <li>You have practised ways of keeping your nerves under control.</li>
+      <li>Your instructor agrees that you are ready.</li>
+    </ul>
+    <p>A mock test answers the third one directly and tells you a good deal about the others. If nerves are the part that worries you, read about <a href="/nervous-drivers">lessons for nervous drivers</a>.</p>
+
+    <h2>Who mock tests are for</h2>
+    <ul class="ticks">
+      <li>My own pupils, before I say you are ready to book.</li>
+      <li>Learners with another instructor who want a second opinion.</li>
+      <li>Learners practising with a parent or partner who want to know where they stand.</li>
+      <li>Anyone with a test date coming up who wants to know what to work on first.</li>
+    </ul>
+
+    <h2>Price and booking</h2>
+    <p>A mock test is booked as a standard {{ site.lesson_length | replace: ' hours', '-hour' }} lesson and costs £{{ site.lesson_price }}. They are available {{ site.hours | downcase | replace: 'monday', 'Monday' | replace: 'friday', 'Friday' }}.</p>
+    <p>The lesson starts in {{ site.main_town }} or one of the <a href="/area">villages I cover</a>, and the test itself is driven in {{ site.test_centre }}. Read more about <a href="/driving-test-grantham">your driving test at {{ site.test_centre }}</a>.</p>
+    <p class="center"><a class="button" href="/contact">Book a mock test</a></p>
+
+    <h2>Questions about mock tests</h2>
+    {% include faqs.html %}
+  </div>
+</section>

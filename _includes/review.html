@@ -1,0 +1,8 @@
+<li class="review">
+  <blockquote>
+    {%- for para in include.review.text %}
+    <p>{{ para | escape }}</p>
+    {%- endfor %}
+  </blockquote>
+  <p class="review__by">{{ include.review.name | escape }} <time datetime="{{ include.review.date | date: '%Y-%m-%d' }}">{{ include.review.date | date: '%B %Y' }}</time></p>
+</li>

@@ -1,0 +1,301 @@
+# Pupil recommendations, newest first. To add one, copy a block to the top:
+#
+# - name: First Last
+#   date: 2026-01-31        (year-month-day)
+#   tags: [nervous, first-time]   (optional: nervous = mentions nerves or confidence, first-time = passed first time)
+#   text:
+#     - "What they wrote. Use a second line starting with a dash for a new paragraph."
+
+- name: "Charlie Foran"
+  date: 2026-11-12
+  tags: []
+  text:
+    - "Martine was great, from when I first started until the day of my test she made me laugh but also let me know what I did wrong and how to fix it. She was great through and through so thank you."
+- name: "Abby Lambley"
+  date: 2026-07-02
+  tags: [first-time]
+  text:
+    - "Martine has been the most amazing instructor! I passed first time with no minors, and I couldn’t have done it without her. I highly recommend to anyone who wants to start learning! Thank you for everything, I will miss you and our lessons"
+- name: "Alex Petts"
+  date: 2025-12-29
+  tags: [nervous, first-time]
+  text:
+    - "Martine is a lovely driving instructor, makes you feel so comfortable,, I had almost no confidence when starting to drive, but now it has sky rocketed and I feel better in being able to drive, but also in myself and of course, passing first time with just 1 minor!! She’s a legend and I would highly recommend her to anyone!!"
+- name: "Hendy Rosie"
+  date: 2025-11-20
+  tags: [nervous, first-time]
+  text:
+    - "Martine is a wonderful instructor. I couldn’t have imagined learning to drive with anyone else. She made me feel really confident and ready to go to test, which meant I passed first time. Highly recommend her x"
+- name: "Lucy Ward"
+  date: 2025-11-11
+  tags: [nervous, first-time]
+  text:
+    - "Martine is a great instructor. She was patient and helped me become a more confident driver, she always made it possible to have a lesson working around my sixth form and work schedule. I can’t thank her enough for helping me pass first time!"
+- name: "Cassie Garton"
+  date: 2025-11-05
+  tags: [nervous, first-time]
+  text:
+    - "Passed first time with Martine after losing all my confidence with another instructor. I have gone from 0 confidence to passing first time in just 8 months. Thank you so much! 10000% recommend! I’m going to miss our midweek chats!"
+- name: "Eve Partridge"
+  date: 2025-10-25
+  tags: [nervous, first-time, female]
+  text:
+    - "Martine is a lovely lady, she is so good with nerves and also always was patient with me despite my mini meltdowns!! I couldn’t have picked a better person to teach me to drive, I passed first time with 4 minor I couldn’t have done it without her!!"
+- name: "Cj Hall"
+  date: 2025-10-09
+  tags: [first-time]
+  text:
+    - "Helped me pass first time, brilliant instructor and very compassionate approach"
+- name: "Elsa Broadberry"
+  date: 2025-09-10
+  tags: [first-time]
+  text:
+    - "Amazing driving instructor, so patient and understanding, passed first time"
+- name: "Daniel Briggs"
+  date: 2025-05-15
+  tags: [first-time]
+  text:
+    - "Great instructor, passed first time. Thank you"
+- name: "Lewis Howe"
+  date: 2025-04-11
+  tags: [first-time]
+  text:
+    - "Legendary Driving instructor, super easy to get along with, great humour and was able to pass first time due her teaching ability, honestly recommend anyone looking to start driving, go with Martine"
+- name: "Poppy Brady"
+  date: 2024-11-03
+  tags: [nervous, first-time]
+  text:
+    - "Where do I even start? Martine is truly the best instructor there is. I came to Martine with 0 confidence in driving, after having lessons elsewhere. I genuinely believed, that I would simply never drive. She completely changed that. I passed first time with her, and have never felt this good. She made me feel so unbelievably comfortable, and I am so thankful for that. I’m already missing my lessons with her, and I only passed a week ago. I honestly couldn’t recommend her enough. Thank you Martine❤️"
+- name: "Emma Tebeli"
+  date: 2024-09-26
+  tags: [nervous, first-time]
+  text:
+    - "came to Martine from another instructor and I had no confidence and thought I couldn't drive but after just a few months I've passed first time with Martine. Would recommend to anyone especially if you are nervous"
+- name: "Luca Chantelle"
+  date: 2024-05-15
+  tags: [nervous]
+  text:
+    - "Fantastic driving instructor, made me feel so comfortable and relaxed every lesson. Can't recommend enough😊"
+- name: "Charlotte Branton"
+  date: 2024-04-24
+  tags: [first-time]
+  text:
+    - "I never thought I would end up able to drive after struggling previously but Martine made everything easier. I couldn’t have asked for a better experience and I’m so glad I went with Elle driving school. Went to test feeling prepared and passed first time. Thank you Martine!"
+- name: "Maddie Hardy"
+  date: 2024-02-05
+  tags: [nervous, first-time]
+  text:
+    - "Passed first time with martine!! After having two other driving instructors in the past, I had absolutely no confidence getting into a car. However, as soon as I met Martine she made me feel so comfortable and at ease, nothing like I had previously. Martine truly is the BEST, friendliest and funniest instructor around!!! I’m going to miss our lessons so much!!! Thank you Martine 💓💓"
+- name: "Ellie Heath"
+  date: 2024-01-23
+  tags: []
+  text:
+    - "Fantastic driving school, highly recommend!"
+- name: "Nigel Hadden"
+  date: 2023-10-26
+  tags: []
+  text:
+    - "Great instructor , very thorough my daughter Louise passed with 1 minor, highly recommend her."
+- name: "Ruby Tebb"
+  date: 2023-08-06
+  tags: [nervous, first-time]
+  text:
+    - "I first joined Martine in May 2023 and passed first time on the 4th of August. Martine made me feel comfortable when learning and was extremely accommodating when I wanted lessons. Martine made sure the basics were nailed before we started anything else and I believe this has helped me a tremendous lot with my quick progression. I couldn’t of asked for anyone better truly, truly fantastic!! I would recommend Martine to any new learning!"
+- name: "Ellie Nixon"
+  date: 2023-08-02
+  tags: [nervous, first-time]
+  text:
+    - "I 100% recommend martine; she puts all her effort into her lessons and is very friendly! Because of martine I passed first time! She made me feel at ease on the day and gave me confidence and reassurance! Will definitely miss our lessons and funny chats together 😊🚗xxx"
+- name: "Yasmin Vickers"
+  date: 2023-07-14
+  tags: [nervous, first-time]
+  text:
+    - "martine is a great instructor! She is so patient and so easy to get along with which helps you feel so relaxed whilst driving! I 100% recommend martine, i passed first time and i will truly miss our lessons together. If you struggle with nerves and anxiety she is one of the best instructors to go to, she really is amazing will definitely miss all our laughs together. Thank you so much martine!!! 🫶🏻❤️"
+- name: "Emma Badley"
+  date: 2023-04-26
+  tags: [nervous]
+  text:
+    - "I past on my second time, with only 3 minors! Martine is a great instructor and makes you feel comfortable and confident behind the wheel. She puts 110% effort towards you, making you a better driving 😁"
+- name: "Kirsty Crawford"
+  date: 2022-11-22
+  tags: [nervous, first-time]
+  text:
+    - "Martine has been an amazing driving instructor, I passed first time with her. I would highly recommend her to anyone, she has been nothing but kind, patient and supportive she has made me feel so confident driving that I have no worries when it comes to going out in the car on my own now. Thank you so much Martine, I will miss you! 😊"
+- name: "Jacob Sykes"
+  date: 2022-11-02
+  tags: [nervous, first-time]
+  text:
+    - "I passed first time with Martine, who is an excellent driving instructor. She made me feel comfortable from the second I got in the car and I would 100% recommend her to anyone learning to drive. I will miss my weekly lessons very much!"
+- name: "Jasmine Francis"
+  date: 2022-09-30
+  tags: [nervous, first-time]
+  text:
+    - "Martine has been fab! I passed my test first time 😊 She is so patient and friendly, and although I started off nervous she helped me to feel confident on the road"
+- name: "Jessie Varney"
+  date: 2022-08-10
+  tags: [nervous, first-time]
+  text:
+    - "Martine has been an amazing driving instructor! Yesterday I passed my driving test FIRST TIME and I was so calm and confident. Martine is very friendly and easy to get along with so I looked forward to my lessons every week and I will miss her! Would definitely recommend!!!"
+- name: "Taya Anna"
+  date: 2022-06-09
+  tags: [nervous, first-time]
+  text:
+    - "Martine has been an amazing instructor! I was quite a nervous driver and she was really patient and helped me develop my confidence so I could pass first time today with no minors! 🎉😊 thank you for being an amazing teacher Martine! I would recommend her to anyone looking to learn to drive, especially if you are worried about nerves as her great sense of humour and very calm, patient attitude really put you at ease behind the wheel."
+- name: "Tom Reid"
+  date: 2022-05-30
+  tags: [nervous]
+  text:
+    - "Really cannot express how great Martine is. She is SO personable, friendly and patient as a teacher. I've had a huge amount of trouble with nerves and anxiety in the past when driving with previous instructors, to the point where it almost became a mini phobia of mine. But Martine somehow managed to build my confidence up from rock bottom, and I now feel so comfortable behind the wheel of a car, I even look forward to driving!"
+    - "If you're looking for a driving instructor look no further, she truly and genuinely is fantastic. Just make sure you can put up with the very funny sarcastic jokes 😉"
+    - "Thank you so much Martine, cannot thank you enough, you've been brilliant. ❤️☺️☺️"
+- name: "Nikita Rose"
+  date: 2022-04-06
+  tags: [first-time]
+  text:
+    - "Martine is a great instructor, honestly the easiest person to get along with which helps you relax whilst driving! 100% would recommend. PASSED FIRST TIME!!! She’s amazing, thanks Martine!!💖💖"
+- name: "Em Neale"
+  date: 2022-02-25
+  tags: [nervous, first-time]
+  text:
+    - "I PASSED FIRST TIME!!! I have had the BEST experience learning to drive with Martine. She is incredibly friendly, and made me feel so at ease in the car. I will truly miss my lessons with her, but I’m so glad that I got my pass result!!! 100000000% will recommend her to everyone"
+- name: "Tala Rose Davies"
+  date: 2021-10-09
+  tags: [nervous]
+  text:
+    - "Martine is an amazing driving instructor, she really helped me to become more confident with my driving. She’s very patient and makes sure you always know what you’re doing. I would definitely recommend her 😊"
+- name: "Will Hastings"
+  date: 2021-09-20
+  tags: [first-time]
+  text:
+    - "Martine is a great instructor, i couldn't have asked for one better. I passed first try with 3 minors, she's super friendly and relaxed."
+- name: "Daniel O'Neill"
+  date: 2021-09-02
+  tags: [nervous, first-time]
+  text:
+    - "Martine has been a fantastic driving instructor and couldn’t of asked for someone better! Very friendly and someone you feel comfortable with very quickly which is great for the driving and tried really hard to get me my first time pass 😊) Would 1000% recommend to everyone!"
+- name: "Elissa Kinnersley"
+  date: 2021-08-09
+  tags: [nervous, first-time]
+  text:
+    - "I couldn’t of asked for a better instructor. Martine has helped my massively over the year and a half I have been learning to drive, she has helped me with my confidence. Without Martine I wouldn’t have been able to pass first time!! 100% recommend to anyone."
+- name: "George Beswick"
+  date: 2021-08-02
+  tags: [nervous, first-time]
+  text:
+    - "Martine is a great instructor, I started learning with her 2 years ago, but due to Covid is halted my progress. But as soon as she was able to she was able to pick me back up and start teaching me again. She also helped a tonne with my confidence in my driving as this was one of the things holding me back."
+    - "So I couldn't recommend anyone better for someone to teach under, and this is coming from someone who passed their first time while being with her!"
+- name: "Lucy Tipper"
+  date: 2021-07-30
+  tags: [nervous]
+  text:
+    - "martine has been fantastic even with covid stopping and starting lessons, she never let me lose confidence in myself and had the patience of a saint with me, Truly an amazing instructor 110% would recommend to everyone, (Will be sending my son to you in a few years) I'll miss our car chats the most x"
+- name: "Joe Dennis"
+  date: 2021-07-03
+  tags: [nervous]
+  text:
+    - "Couldn't have asked for a better driving instructor than Martine - she's relaxed, patient, funny, and she was always fully engaged in my progress (in driving and life in general). Felt comfortable from the first lesson to the last. Thanks for putting up with my dramatic meltdowns 🙄 I really appreciate the effort that you put in and I'll miss our lessons!! 😊🤩😊"
+- name: "Olivia Anderson"
+  date: 2021-05-07
+  tags: [first-time]
+  text:
+    - "amazing experience learning with martine, she was calm and understanding throughout my lessons and always informative. passed 1st time and would highly recommend! thanks martine 💖💖💖"
+- name: "Emily Afford"
+  date: 2021-04-26
+  tags: [nervous, first-time]
+  text:
+    - "passed my test first time with martine! such a kind and patient instructor, really boosted my confidence and got me well prepared for test day 🥰"
+- name: "Oliver Pettit"
+  date: 2020-10-20
+  tags: [first-time]
+  text:
+    - "Passed my driving test first time thanks to Martine. Very helpful and kind instructor. Was really fun 😄."
+- name: "Lisa Kellie"
+  date: 2020-10-13
+  tags: [first-time]
+  text:
+    - "Passed my test first time today 🥰 Martine is an amazing driving instructor, I could not ask for somebody more patient, kind and understanding. I’ve had a lovely time learning with Martine and will miss her!"
+- name: "Michelle Banks"
+  date: 2020-01-20
+  tags: []
+  text:
+    - "Passed my driving test today with Martine and Can’t thank her enough. She has supported and encouraged me to finally pass. She is a fab instruction and I would highly recommend her. Will miss out chats 😘"
+- name: "Eve Scott-Golding"
+  date: 2019-10-04
+  tags: [nervous]
+  text:
+    - "Couldn’t of passed my test without Martine. She makes you feel confident behind the wheel, and puts you at ease with any queries you have. Couldn’t recommend enough"
+- name: "Tasha Tomas"
+  date: 2019-07-10
+  tags: []
+  text:
+    - "Martine is an amazing instructor, couldn't recommend her more. Very patient and genuinely lovely ❤️"
+- name: "Sophie Smith"
+  date: 2019-05-24
+  tags: [nervous]
+  text:
+    - "I can’t thank Martine enough for helping me learn to drive! I passed today with just 2 minors and I couldn’t be happier :) I was so nervous to learn to drive, and take my test, but Martine was absolutely amazing and put me at ease, I will thoroughly miss our lessons together, I highly recommend doing your lessons with her! Thank you for everything Martine❤️"
+- name: "Will Bell"
+  date: 2019-04-17
+  tags: [first-time]
+  text:
+    - "Really fantastic lessons, with some good laughs and always good chats. Most importantly me and my brother both passed first time!"
+- name: "Jessica-Rose Spry"
+  date: 2019-04-09
+  tags: [nervous]
+  text:
+    - "Martine is brilliant, best instructor i ever had and there's been a few 😂 shes so easy to get along with and kept me confident and made me feel so at ease. Couldnt ask for anyone better, and shes a great agony aunt too. Will miss our lessons xxxx"
+- name: "Hannah Dennis"
+  date: 2018-10-01
+  tags: [nervous, first-time]
+  text:
+    - "First time pass🎉🎉 Martine is an amazing instructor! She’s extremely patient and eager to make you feel comfortable behind the wheel! 100% would recommend to anyone!!"
+- name: "Mia O’Shea"
+  date: 2018-09-19
+  tags: [nervous]
+  text:
+    - "100% would recommend Elle Driving School. Not only were lessons incredibly effective and progressive, they were also enjoyable! Martine completely put me at ease in our lessons and taught me memorable techniques - including some advanced driving techniques - that helped to significantly improve my driving and confidence on the road. I can now parallel park like a god! Thank you so much Martine, I enjoyed every lesson and shall miss our hilarious banter!"
+- name: "Nuala Harland"
+  date: 2017-10-26
+  tags: []
+  text:
+    - "Martine is the best instructor I could have asked for she was always so patient and never made me feel bad about my driving and today I managed to pass with only 2 minors."
+- name: "Tia Merritt"
+  date: 2017-10-13
+  tags: []
+  text:
+    - "Martine is such a patient, wonderful and kind person. I don't think I could have had a better driving instructor. I recommend her to everyone!"
+- name: "Fiona Howe"
+  date: 2017-10-11
+  tags: [nervous, first-time, female]
+  text:
+    - "Martine is a wonderful wonderful driving instructor. When I met her last year I was not very confident . I thought I would never pass n doubted myself all the time and I’m going to miss this lady and our weekly lessons terribly . This lovely lady made everything possible for me and yesterday I passed my test 1ST TIME with 3 minors. I would highly recommend Martine 100% she makes learning to drive fun"
+- name: "Rhys Hodder"
+  date: 2017-09-21
+  tags: [nervous, first-time]
+  text:
+    - "Couldn't be happier than passing first time after 40 hours, Martine is an excellent instructor and was perfect for my personality and inspired confidence in myself throughout. Thanks for the journey!"
+- name: "Ashleigh O'Neill"
+  date: 2017-08-15
+  tags: [nervous]
+  text:
+    - "Couldn't recommend Martine more as an instructor! She is so friendly and makes you feel so comfortable and confident even for a nervous pupil like me making me look forward to my lessons each week!"
+- name: "Joel Sloan"
+  date: 2017-02-09
+  tags: [nervous]
+  text:
+    - "After a bad experience with a previous instructor could not have asked for somebody better with as much patients as Martine has. She not only teaches you how to pass your test but also how to drive safely and confidently. Highly recommend."
+- name: "Mitchell Callow"
+  date: 2017-01-16
+  tags: []
+  text:
+    - "Martine is an excellent driving instructor!! Passed today with only 4 minors. Would recommend her to anyone!!"
+- name: "Ollie Ryman"
+  date: 2016-10-25
+  tags: [first-time]
+  text:
+    - "Martine is an awesome instructor, helped me pass first time with only 1 minor! 😃 Would recommend to anyone!"
+- name: "Luke Pattinson"
+  date: 2016-09-14
+  tags: [first-time]
+  text:
+    - "Great driving instructor, really patient and and helpful, would definitely recommend ! Passed first time with 4 minors !"

@@ -1,0 +1,42 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <p class="site-footer__name">{{ site.title }}</p>
+      <p>Manual driving lessons in {{ site.main_town }} and the surrounding villages with {{ site.instructor }}, a female DVSA Approved Driving Instructor based in {{ site.base_detail }}.</p>
+      <p>{{ site.hours }}</p>
+    </div>
+    <div>
+      <p class="site-footer__name">Get in touch</p>
+      <p>
+        <a href="tel:{{ site.phone_link }}">{{ site.phone_display }}</a><br>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+        <a href="{{ site.facebook }}" rel="noopener">Facebook</a>
+      </p>
+    </div>
+    <nav aria-label="Lessons">
+      <p class="site-footer__name">Lessons</p>
+      <ul>
+        <li><a href="/">Driving lessons in {{ site.main_town }}</a></li>
+        <li><a href="/nervous-drivers">Lessons for nervous drivers</a></li>
+        <li><a href="/female-driving-instructor">Female driving instructor</a></li>
+        <li><a href="/refresher-lessons">Refresher lessons</a></li>
+        <li><a href="/mock-driving-test">Mock driving tests</a></li>
+        <li><a href="/driving-test-grantham">Driving test at {{ site.test_centre }}</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer">
+      <p class="site-footer__name">More</p>
+      <ul>
+        <li><a href="/about">About {{ site.instructor }} and the car</a></li>
+        <li><a href="/prices">Lesson prices</a></li>
+        <li><a href="/area">Areas covered</a></li>
+        <li><a href="/recommendations">Pupil recommendations</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <p class="site-footer__small">&copy; {{ site.time | date: '%Y' }} {{ site.title }}, {{ site.base_town }}, {{ site.main_town }}, {{ site.county }}.</p>
+  </div>
+</footer>

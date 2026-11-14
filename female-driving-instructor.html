@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: /female-driving-instructor
+title: "Female Driving Instructor Sleaford | Elle Driving School"
+description: Looking for a female driving instructor in Sleaford? Martine has taught manual driving lessons since 1990 and covers Sleaford and the surrounding villages.
+heading: Female driving instructor in Sleaford
+intro: Manual driving lessons with Martine, a female DVSA Approved Driving Instructor with over 35 years' experience.
+quote: "Martine is a lovely lady, she is so good with nerves"
+quote_by: Eve Partridge
+---
+<section class="band">
+  <div class="container container--narrow">
+    <p class="lead">Plenty of learners, and plenty of parents, would simply rather have a female driving instructor. If that is you, hello. I'm {{ site.instructor }}.</p>
+    <p>I qualified as a driving instructor in {{ site.qualified_year }} and have run Elle Driving School Sleaford since {{ site.founded_year }}. I work on my own, so when you book with me it is always me in the passenger seat, never a different instructor sent in my place. There is more <a href="/about">about me and the car</a> here.</p>
+
+    <h2>Who I teach</h2>
+    <p>Anyone who wants to learn. My pupils are teenagers taking their first lesson, adults who have put off learning for years, and drivers who already have a licence and want <a href="/refresher-lessons">refresher lessons</a>. Men are just as welcome as women.</p>
+    <p>People tell me they chose a female instructor because they wanted someone calm and patient, or because they did not get on with a previous instructor. You can read more about how I teach <a href="/nervous-drivers">nervous drivers</a>.</p>
+
+    <h2>The practical details</h2>
+    <ul class="ticks">
+      <li>Manual lessons in a dual-controlled MINI Cooper.</li>
+      <li>{{ site.lesson_length | capitalize }} per lesson, £{{ site.lesson_price }}. <a href="/prices">Lesson prices</a></li>
+      <li>{{ site.hours }}.</li>
+      <li>Covering {{ site.areas | array_to_sentence_string }}. <a href="/area">Areas covered</a></li>
+      <li>Tests taken at <a href="/driving-test-grantham">{{ site.test_centre }} test centre</a>.</li>
+    </ul>
+    <p class="center"><a class="button" href="/contact">Book a lesson with {{ site.instructor }}</a></p>
+  </div>
+</section>
+
+<section class="band band--blush">
+  <div class="container">
+    <h2>What my pupils say</h2>
+    <ul class="reviews reviews--featured">
+      {%- for review in site.data.reviews %}
+        {%- if review.tags contains 'female' %}
+      {% include review.html review=review %}
+        {%- endif %}
+      {%- endfor %}
+      {%- for review in site.data.reviews limit: 4 offset: 6 %}
+      {% include review.html review=review %}
+      {%- endfor %}
+    </ul>
+    <p class="center"><a class="button" href="/recommendations">Read all {{ site.data.reviews | size }} recommendations</a></p>
+  </div>
+</section>

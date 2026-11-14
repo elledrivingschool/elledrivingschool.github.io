@@ -1,0 +1,56 @@
+# Elle Driving School - site settings.
+# GitHub Pages builds the site from this repository automatically on every push.
+# Edit the values below and they update everywhere on the site.
+
+title: Elle Driving School Sleaford
+url: https://www.elledrivingschoolsleaford.co.uk
+tagline: Friendly, patient manual driving lessons in Sleaford with Martine, a DVSA Approved Driving Instructor since 1990.
+
+instructor: Martine
+phone_display: 01529 488 880
+phone_link: "+441529488880"
+email: broadrickmartine@gmail.com
+facebook: https://www.facebook.com/elledrivingschoolsleaford
+facebook_reviews: https://www.facebook.com/elledrivingschoolsleaford/reviews
+form_endpoint: https://formspree.io/f/mnqlyyrq
+form_cc: elledriving@mikeparkin.com
+
+base_town: Greylees
+base_detail: Greylees, near Rauceby station
+main_town: Sleaford
+county: Lincolnshire
+test_centre: Grantham
+
+# Confirmed by Martine, 14 Nov 2026
+qualified_year: 1990        # qualified as a driving instructor
+founded_year: 2010          # Elle Driving School started
+hours: Monday to Friday, 9am to 4pm
+car: MINI Cooper, manual, with dual controls
+lesson_length: 2 hours
+lesson_price: 90            # pounds, for a 2-hour lesson
+services:
+  - Weekly driving lessons
+  - Refresher lessons
+  - Mock tests
+
+# Towns and villages listed on the Area page and in the search-engine data.
+areas:
+  - Sleaford
+  - Greylees
+  - Quarrington
+  - Holdingham
+  - Leasingham
+  - Cranwell
+  - North Rauceby
+  - South Rauceby
+  - Silk Willoughby
+  - Wilsford
+  - Ancaster
+
+# Build settings
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

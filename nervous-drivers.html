@@ -1,0 +1,54 @@
+---
+layout: default
+permalink: /nervous-drivers
+title: "Nervous Driver Lessons Sleaford | Elle Driving School"
+description: Patient, calm driving lessons in Sleaford for nervous and anxious learners, including those who lost confidence with another instructor. Read what pupils say.
+heading: Driving lessons for nervous drivers in Sleaford
+intro: Calm, patient lessons at your pace, with an instructor who has been putting nervous learners at ease since 1990.
+faqs:
+  - q: I had lessons with another instructor and it put me off. Can I start again with you?
+    a: Yes. Many of my pupils come to me after lessons elsewhere. We start by finding out what you can already do, which is usually more than you think, and build from there.
+  - q: What happens if I panic or make a mistake?
+    a: The car has dual controls, so I can step in at any moment. Mistakes are how everyone learns to drive, and nothing you do will surprise me.
+  - q: Will you rush me towards a test?
+    a: No. I will tell you honestly when I think you are ready, and you can take a mock test first so the real one holds no surprises.
+  - q: Where will my first lesson be?
+    a: Somewhere quiet. We do not go near busy roads until you are comfortable with the car.
+quote: "I have gone from 0 confidence to passing first time in just 8 months."
+quote_by: Cassie Garton
+---
+{%- assign nervous = site.data.reviews | where_exp: "r", "r.tags contains 'nervous'" | size %}
+<section class="band">
+  <div class="container container--narrow">
+    <p class="lead">If the thought of driving makes your stomach turn, you are in good company. Plenty of my pupils felt exactly the same on their first lesson.</p>
+    <p>Some had never driven and had put it off for years. Others had tried with another instructor, been shouted at or rushed, and decided driving was not for them. They went on to pass, many of them first time.</p>
+
+    <h2>How lessons work if you are nervous</h2>
+    <ul class="ticks">
+      <li>We start on quiet roads and only move on when you are ready.</li>
+      <li>You can ask anything, as many times as you need to.</li>
+      <li>The car has dual controls, so I can always step in.</li>
+      <li>Lessons are {{ site.lesson_length }} long, which gives you time to settle before we try anything new.</li>
+      <li>You have the same instructor and the same car every time.</li>
+      <li>You can take a <a href="/mock-driving-test">mock test</a> before the real one, so you know what to expect.</li>
+    </ul>
+    <p>I have been teaching since {{ site.qualified_year }}. Nerves are normal, and they do pass. If you would feel more comfortable with a woman teaching you, read about learning with a <a href="/female-driving-instructor">female driving instructor in {{ site.main_town }}</a>. If you already have a licence and have lost your nerve, <a href="/refresher-lessons">refresher lessons</a> are the place to start.</p>
+    <p class="center"><a class="button" href="/contact">Talk to {{ site.instructor }} about lessons</a></p>
+  </div>
+</section>
+
+<section class="band band--blush">
+  <div class="container">
+    <h2>From pupils who started out nervous</h2>
+    <p class="center">{{ nervous }} of my {{ site.data.reviews | size }} recommendations mention nerves, confidence or being put at ease. Here are the most recent.</p>
+    {% include tagged-reviews.html tag="nervous" limit=9 %}
+    <p class="center"><a href="/recommendations">Read all recommendations</a></p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container container--narrow">
+    <h2>Common worries</h2>
+    {% include faqs.html %}
+  </div>
+</section>
