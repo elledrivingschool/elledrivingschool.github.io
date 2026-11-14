@@ -2,7 +2,7 @@
 layout: default
 permalink: /prices
 title: "Driving Lesson Prices Sleaford | Elle Driving School"
-description: Manual driving lessons in Sleaford cost £90 for a 2-hour lesson (£45 an hour) with Elle Driving School Sleaford. Mock tests are the same price. Refresher lessons also available.
+description: Manual driving lessons in Sleaford cost £90 for a 2-hour lesson (£45 an hour) with Elle Driving School Sleaford. Refresher lessons and mock tests are the same price.
 heading: Driving lesson prices in Sleaford
 quote: "I passed first time with no minors, and I couldn’t have done it without her."
 quote_by: Abby Lambley
@@ -18,7 +18,8 @@ quote_by: Abby Lambley
       </li>
       <li class="card">
         <h2>Refresher lessons</h2>
-        <p>For drivers who already hold a full licence and want to get their confidence back. <a href="/refresher-lessons">More about refresher lessons</a>, or <a href="/contact">get in touch</a> for a price.</p>
+        <p class="price">£{{ site.lesson_price }} <span>per {{ site.lesson_length | replace: ' hours', '-hour' }} lesson</span></p>
+        <p>The same price and length as a standard lesson. For drivers who already hold a full licence and want to get their confidence back. <a href="/refresher-lessons">More about refresher lessons</a></p>
       </li>
       <li class="card">
         <h2>Mock tests</h2>
